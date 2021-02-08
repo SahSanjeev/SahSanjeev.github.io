@@ -28,7 +28,7 @@ class Show extends Component{
 
   static async getInitialProps(props){
     const res =proj[props.query.address-1];
-    return res;
+    return typeof res==="undefined"?{}:res;
   }
 
   render(){
