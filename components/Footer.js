@@ -39,9 +39,9 @@ const Footer = () =>{
   const handleSubmit = event => {
     event.preventDefault();
 
-  const receiverEmail = "harshbansal32000@gmail.com";
-  const templateId = "template_cxrbvag";
-  const user = "user_fUMunBF0G59MNn9hTOePp";
+  const receiverEmail = "infoevolution21@gmail.com";
+  const templateId = "template_g9k7xhm";
+  const user = "${{secret.MAIL_ID}}";
 
     sendFeedback({
       templateId,
