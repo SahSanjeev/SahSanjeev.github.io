@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
-    "export":"next export"
+    "export":"next export",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
   "author": "",
   "license": "ISC",
