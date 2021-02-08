@@ -35,7 +35,7 @@ services solutions for PET, Can, Glass  packaging beverage, home and personal ca
             <Button color='black' >Download CV</Button>
           </Grid.Column>
           <Grid.Column floated='right' width={8}>
-              <Image   src='/abc.png'  />
+              <img   src='/abc.png'  />
           </Grid.Column>
         </Grid.Row>
       </Grid>
