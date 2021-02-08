@@ -23,7 +23,7 @@ import EmailValidator from 'email-validator';
 import { isValidPhoneNumber } from 'react-phone-number-input'
 
 const Footer = () =>{
-  init("user_fUMunBF0G59MNn9hTOePp");
+  init("${{secret.MAIL_ID}}");
   const [name, setName] = useState("");
   const [success, setSuccess] = useState(false);
   const [email, setEmail] = useState("");
