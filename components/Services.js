@@ -28,7 +28,7 @@ const Services = () =>{
         <Grid.Row>
           <Grid.Column>
             <Card  centered>
-              <Image  style={{width: 'auto', height: 'auto'}}  src='https://d57439wlqx3vo.cloudfront.net/iblock/577/57718e3f9374256923aa4382c5bcc673/b73ee98a70e1ecefb77b4996f067a2fa.png' wrapped ui={false} />
+              <img  style={{width: 'auto', height: 'auto'}}  src='https://d57439wlqx3vo.cloudfront.net/iblock/577/57718e3f9374256923aa4382c5bcc673/b73ee98a70e1ecefb77b4996f067a2fa.png' wrapped ui={false} />
               <Card.Content>
                 <Card.Header>Project Management</Card.Header>
                 <Card.Meta>
@@ -48,7 +48,7 @@ const Services = () =>{
           </Grid.Column>
           <Grid.Column>
             <Card centered>
-              <Image size='medium' src='https://www.industrialthinking.com/media/1086/fullconsultancy.jpg' wrapped ui={false} />
+              <img size='medium' src='https://www.industrialthinking.com/media/1086/fullconsultancy.jpg' wrapped ui={false} />
               <Card.Content>
                 <Card.Header>Consultancy</Card.Header>
                 <Card.Meta>
@@ -68,7 +68,7 @@ const Services = () =>{
           </Grid.Column>
           <Grid.Column>
             <Card centered>
-              <Image src='https://akm-img-a-in.tosshub.com/indiatoday/images/story/202008/stockvault-fixing-the-light---.jpeg' wrapped ui={false} />
+              <img src='https://akm-img-a-in.tosshub.com/indiatoday/images/story/202008/stockvault-fixing-the-light---.jpeg' wrapped ui={false} />
               <Card.Content>
                 <Card.Header>Engineering Solutions</Card.Header>
                 <Card.Meta>
